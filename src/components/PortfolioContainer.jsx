@@ -30,7 +30,17 @@ export default function PortfolioContainer() {
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       {/* Here we are calling the renderPage method which will return a component  */}
       <main className="mx-3">{renderPage()}</main>
-      <footer>Test</footer>
+
+      <footer class="bg-light text-center text-white">
+        <div class="container p-4 pb-0">
+        </div>
+        <p id="footer-copyright text-center p-3">
+          © Developed by Shawn Bunch
+        </p>
+        <p id="telephone text-center p-3">
+          Tel: +1 862-432-2859
+        </p>
+      </footer>
     </div>
   );
 }
