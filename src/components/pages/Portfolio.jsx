@@ -1,22 +1,22 @@
 export default function Portfolio() {
   return (
     <div>
-      <h1>Portfolio Page</h1>
+      <h1>Portfolio</h1>
       <section id="work" className="container">
-            <h2>Work</h2>
+            {/* <h2>Work</h2> */}
             <section className="tiles">
-                <article className="projects" id="horiseon">
-                    <a href="https://github.com/shbunch/horiseon-accessibility-refactor" target="_blank">
-                        <img src="./images/horiseon.png" alt="horiseon accessibility refactor"/></a>
+                <article className="projects" id="plutus">
+                    <a href="https://cryptic-coast-09384-0756af69f6b6.herokuapp.com/" target="_blank">
+                        <img src="./images/plutus.jpg" alt="plutus"/></a>
                         <span className="project-title">
-                            <h4>Horiseon Accessibility Refactor</h4>
+                            <h4>Plutus - Personal Finance App</h4>
                         </span>
                 </article>
-                <article className="projects" id="ledwall">
-                <a href="https://github.com/shbunch/horiseon-accessibility-refactor" target="_blank">
-                        <img src="./images/ledwall.avif" alt="LED wall"/></a>
+                <article className="projects" id="gamebox">
+                <a href="https://shbunch.github.io/GameBox/" target="_blank">
+                        <img src="./images/gamebox.avif" alt="gamebox"/></a>
                         <span className="project-title">
-                            <h4>LED Wall</h4>
+                            <h4>Gamebox</h4>
                         </span>
                 </article>
                 <article className="projects" id="calculator">
