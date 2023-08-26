@@ -1,47 +1,47 @@
 export default function Portfolio() {
-  return (
-    <div>
-      <h1>Portfolio</h1>
-      <section id="work" className="container">
-            {/* <h2>Work</h2> */}
-            <section className="tiles">
-                <article className="projects" id="plutus">
-                    <a href="https://cryptic-coast-09384-0756af69f6b6.herokuapp.com/" target="_blank">
-                        <img src="./images/plutus.jpg" alt="plutus"/></a>
+    return (
+        <div>
+            <h1>Portfolio</h1>
+            <section id="work" className="container">
+                {/* <h2>Work</h2> */}
+                <section className="tiles">
+                    <article className="projects" id="plutus">
+                        <a href="https://cryptic-coast-09384-0756af69f6b6.herokuapp.com/" target="_blank">
+                            <img src="./images/plutus.jpg" alt="plutus" /></a>
                         <span className="project-title">
                             <h4>Plutus - Personal Finance App</h4>
                         </span>
-                </article>
-                <article className="projects" id="gamebox">
-                <a href="https://shbunch.github.io/GameBox/" target="_blank">
-                        <img src="./images/gamebox.avif" alt="gamebox"/></a>
+                    </article>
+                    <article className="projects" id="gamebox">
+                        <a href="https://shbunch.github.io/GameBox/" target="_blank">
+                            <img src="./images/gamebox.avif" alt="gamebox" /></a>
                         <span className="project-title">
-                            <h4>Gamebox</h4>
+                            <h4>Gamebox - Game Search Catalog</h4>
                         </span>
-                </article>
-                <article className="projects" id="calculator">
-                <a href="https://github.com/shbunch/horiseon-accessibility-refactor" target="_blank">
-                        <img src="./images/calculator.avif" alt="calculator"/></a>
+                    </article>
+                    <article className="projects" id="passwordgenerator">
+                        <a href="https://shbunch.github.io/password-generator/" target="_blank">
+                            <img src="./images/password.avif" alt="passwordgenerator" /></a>
                         <span className="project-title">
-                            <h4>Calculator</h4>
+                            <h4>Password Generator</h4>
                         </span>
-                </article>
-                <article className="projects" id="pastelpuzzles">
-                <a href="https://github.com/shbunch/horiseon-accessibility-refactor" target="_blank">
-                        <img src="./images/puzzle.avif" alt="pastel puzzles"/></a>
+                    </article>
+                    <article className="projects" id="notetaker">
+                        <a href="https://note-taker-sb-49a4f5ea30c6.herokuapp.com/" target="_blank">
+                            <img src="./images/notebook.avif" alt="note taker" /></a>
                         <span className="project-title">
-                            <h4>Pastel Puzzles</h4>
+                            <h4>Note Taker</h4>
                         </span>
-                </article>
-                <article className="projects" id="runbuddy">
-                <a href="https://github.com/shbunch/horiseon-accessibility-refactor" target="_blank">
-                        <img src="./images/runbuddy.avif" alt="run buddy"/></a>
+                    </article>
+                    <article className="projects" id="employeetracker">
+                        <a href="https://github.com/shbunch/employee-tracker" target="_blank">
+                            <img src="./images/employees.avif" alt="employee" /></a>
                         <span className="project-title">
-                            <h4>Run Buddy</h4>
+                            <h4>Employee Tracker</h4>
                         </span>
-                </article >
+                    </article >
+                </section >
             </section >
-        </section >
-    </div >
-  );
+        </div >
+    );
 }
