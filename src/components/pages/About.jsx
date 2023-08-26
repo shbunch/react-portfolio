@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <div>
-      <h1>About Page</h1>
+      <h1>About Me</h1>
       <p>
         Greetings! I'm Shawn, a passionate IT professional on an exciting journey of transformation. With a background rooted in database administration and a curiosity for all things tech, I've set out to reshape my career as a Full Stack Developer.
       </p>

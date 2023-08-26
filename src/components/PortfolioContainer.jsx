@@ -31,7 +31,7 @@ export default function PortfolioContainer() {
       {/* Here we are calling the renderPage method which will return a component  */}
       <main className="mx-3">{renderPage()}</main>
 
-      <footer class="bg-light text-center text-white">
+      <footer class="bg-light text-center text-black">
         <div class="container p-4 pb-0">
         </div>
         <p id="footer-copyright text-center p-3">

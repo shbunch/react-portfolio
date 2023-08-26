@@ -1,13 +1,11 @@
 /* Importing custom font from Google */
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap');
 
 /* Creating CSS variables */
 :root {
   --font-normal: 400;
-  --font-heavy: 700;
-  --light: #ff3b3f;
+  --font-heavy: 600;
 }
-
 
 /* Creating container to set standard width for viewing */
 .container {
@@ -17,16 +15,8 @@
     margin: 0 auto;
 }
 
-/* Adding banner image from unsplash: https://unsplash.com/photos/bgFB2WJSvLA */
-.banner {
-    background-image: url(../images/backgroundbanner.avif);
-    height: 20em;
-    background-size: cover;
-    margin-bottom: 3em;
-}
-
 body {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background-color: #efefef;
     width: 100%;
     height: auto;
@@ -36,37 +26,6 @@ body {
 img {
     width: 100%;
     height: 100%;
-  }
-
-header {
-    font-family: 'Oswald', sans-serif;
-    color: var(--light);
-    padding: 0.8em 0;
-    width: 100%;
-  }
-
- /* Making navigation bar stretch and having all children spaced evenly */ 
-nav {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-right: 1em;
-  }
-
-nav ul {
-    align-self: center;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-  }
-
-h1 {
-    width: 50%;
-    text-align: center;
-    font-size: 180%;
-    padding: 0.3em 1em;
   }
 
 /* Removing bullet points */
@@ -83,70 +42,6 @@ h1 {
     background-color: var(--light);
     color: var(--dark);
     box-shadow: 0 2px 2px white;
-}
-
-/* Navigation link colors */
-nav a {
-    color: var(--light);
-}
-
-main {
-    width: 100%;
-}
-
-/* Section header font */
-main h2 {
-    width: 200px;
-    text-align: right;
-    font-size: 175%;
-    font-family: 'Oswald', sans-serif;
-    padding-right: 1em;
-}
-
-main p {
-    font-size: 24px;
-}
-
-/* Applying flex for all the sections below to dynamically adjust to container */
-#about-me {
-    height: auto;
-    display: flex;
-    margin-bottom: 3em;
-}
-
-.about-me-content {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 1em;
-    line-height: 1.8;
-}
-
-#first-paragraph {
-    display: flex;
-  }
-
-#first-paragraph p {
-    align-self: flex-end;
-}
-
-/* Picture styling */
-#avatar {
-    margin-right: 1em;
-    width: 180px;
-    height: 200px;
-    z-index: 10;
-    background-color: var(--light);
-    padding: 0.5em;
-    border: 0.5em solid var(--dark);
-    margin-bottom: 1em;
-}
-
-.about-me-content p {
-    margin-bottom: 1em;
-    text-align: left;
-    padding: 0 2em;
 }
 
 #work {
