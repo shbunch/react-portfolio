@@ -1,0 +1,52 @@
+#hero-container {
+  position: relative;
+}
+
+#hero {
+  background-image: url("../images/workfromhome.avif");
+  background-size: cover;
+  height: 150vh;
+  /* filter: blur(2px); */
+}
+
+#welcome {
+  color: black;
+  animation: moveIn 4s;
+  position: absolute;
+  left: 50%;
+  right: auto;
+  top: 35%;
+}
+
+#welcome p {
+  color: black;
+  font-size: 0.8em;
+}
+
+@keyframes moveIn {
+  from {
+    left: 100%;
+  }
+
+  to {
+    left: 50%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #welcome {
+    left: 15%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #welcome {
+    left: 5%;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  #welcome {
+    right: 20%;
+  }
+}
