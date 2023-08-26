@@ -23,6 +23,19 @@
   font-size: 0.8em;
 }
 
+#avatar {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+  left: 35%;
+  right: auto;
+  top: 35%;
+  animation-duration: 5s;
+  animation-name: slidein;
+}
+
 @keyframes moveIn {
   from {
     left: 100%;
