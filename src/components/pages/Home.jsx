@@ -5,7 +5,7 @@ export default function Home() {
     <div id='hero-container'>
       <div id="hero">
       <img
-        src="../public/images/SB.jpg"
+        src="/images/SB.jpg"
         alt="shawnbunch"
         id="avatar"
       />
