@@ -5,6 +5,9 @@ import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('Home');
@@ -41,6 +44,16 @@ export default function PortfolioContainer() {
         <p id="footer-copyright text-center p-3">
           © Developed by Shawn Bunch
         </p>
+        <span className='p-1 fa-2x'>
+          <a href='https://www.linkedin.com/in/shawn-bunch/' target='_blank' rel='noreferrer' >
+            <FontAwesomeIcon icon={faLinkedin} style={{ color: "black", }} className='link' />
+          </a>
+        </span>
+        <span className='p-1 fa-2x'>
+          <a href='https://github.com/shbunch' target='_blank' rel='noreferrer' className='link'>
+            <FontAwesomeIcon icon={faGithub} style={{ color: "black", }} className='link' />
+          </a>
+        </span>
         <p id="telephone text-center p-3">
           Tel: +1 862-432-2859
         </p>
